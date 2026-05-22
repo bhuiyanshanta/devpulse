@@ -1,7 +1,7 @@
 import { Pool } from 'pg';
 import config from './config';
 
-// connectionString ব্যবহার করে সরাসরি নিয়ন ডিবির সাথে কানেক্ট করা হলো
+// connectionString ব্যবহার করে সরাসরি নিয়ন ডিবির সাথে কানেক্ট করা হইলো
 const pool = new Pool({
   connectionString: config.database_url,
   ssl: {
