@@ -26,7 +26,7 @@
 
     /* Modules */
     "module": "esnext",                              /* Specify what module code is generated. */
-    "rootDir": "./src",  
+    "rootDir": "./",  
     "outDir": "./dist",                                   /* Specify an output folder for all emitted files. */                                /* Specify the root folder within your source files. */
     "moduleResolution": "bundler",
     // "baseUrl": "./",                                  /* Specify the base directory to resolve non-relative module names. */
@@ -105,6 +105,10 @@
 
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
-    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
-  }
+    "skipLibCheck": true   /* Skip type checking all .d.ts files. */
+  },
+  "include": [
+    "src/**/*",
+    "api/**/*"
+  ]
 }
