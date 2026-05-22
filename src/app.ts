@@ -1,6 +1,6 @@
 import express, { Application } from 'express';
-import { AuthRoutes } from './app/modules/auth/auth.routes';
-import { IssueRoutes } from './app/modules/issue/issue.routes'; // 
+import { AuthRoutes } from './app/modules/auth/auth.routes.js';
+import { IssueRoutes } from './app/modules/issue/issue.routes.js'; // 
 
 const app: Application = express();
 
