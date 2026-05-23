@@ -1,6 +1,6 @@
-import app from "./app";
-import config from "./config";
-import "./db";
+import app from "../src/app";
+import config from "../src/config";
+import "../src/db";
 
 const main = async () => {
     app.listen(config.port, () => {
